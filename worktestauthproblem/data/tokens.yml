@@ -1,0 +1,11 @@
+tokens:
+- api-token: 3cd2c94e218520695ae0979f245bb587
+  service: service-1
+- api-token: 64ff1a752d4b6c1746095aada32ec3a9
+  service: service-2
+- api-token: 7e294d60c9b8462c708116b14bf28857
+  service: service-3
+- api-token: e087861a823cec5b380da7bf0e70da0b
+  service: service-4
+- api-token: 7b52b7d3102d1d0f0e9aaaecda63dfaf
+  service: service-4

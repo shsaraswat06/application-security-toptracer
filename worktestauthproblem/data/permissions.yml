@@ -1,0 +1,34 @@
+permissions:
+- permissions:
+  - application-service-1:
+      can-access-data: true
+      can-create-service: true
+  - application-service-2:
+      can-access-data: true
+  - application-service-3:
+      can-access-data: true
+  service: service-1
+- permissions:
+  - application-service-1:
+      can-access-data: false
+  - application-service-2:
+      can-access-data: true
+  - application-service-3:
+      can-access-data: true
+  service: service-2
+- permissions:
+  - application-service-1:
+      can-access-data: false
+  - application-service-2:
+      can-access-data: false
+  - application-service-3:
+      can-access-data: false
+  service: service-3
+- permissions:
+  - application-service-1:
+      can-access-data: true
+  - application-service-2:
+      can-access-data: true
+  - application-service-3:
+      can-access-data: true
+  service: service-4
